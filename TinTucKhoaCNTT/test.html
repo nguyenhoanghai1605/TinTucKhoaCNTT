@@ -1,0 +1,202 @@
+<li class="nav-item dropdown ml-3 ml-md-2 mr-2 mr-md-0 show" id="yui_3_17_2_1_1690334117449_20">
+    <a class="nav-link dropdown-toggle my-auto" role="button" href="#" id="usermenu" data-toggle="dropdown"
+        aria-haspopup="true" aria-expanded="true" aria-controls="usermenu-dropdown" aria-label="User menu"
+        title="Dang Nhap">
+        <span class="d-none d-md-inline-block mx-1">Đăng nhập</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right show" role="menu" id="usermenu-dropdown" aria-labelledby="usermenu">
+        <a class="dropdown-item"
+            href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=32dfcc32-e310-4a71-95d5-e2d03ebcb985&amp;response_type=code&amp;redirect_uri=https%3A%2F%2Flms.thegioikimcuong.net%2Fadmin%2Foauth2callback.php&amp;state=%2Fauth%2Foauth2%2Flogin.php%3Fwantsurl%3Dhttps%253A%252F%252Flms.thegioikimcuong.net%252F%26sesskey%3DY9AnfvTUK1%26id%3D1&amp;scope=openid%20profile%20email%20user.read&amp;sso_reload=true"
+            title="Sử dụng tài khoản TGKC"><i aria-hidden="true" class="fa fa-dashboard"></i>Sử dụng tài khoản email
+            @thegioikimcuong.vn</a>
+    </div>
+</li>
+
+
+
+
+
+
+<div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active show" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                aria-controls="contact" aria-selected="true">
+                <i class="fa fa-envelope-o"></i> <b>Liên hệ - góp ý</b>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="forgetPassword-tab" data-toggle="tab" href="#forgetPassword" role="tab"
+                aria-controls="forgetPassword" aria-selected="false">
+                <i class="fa fa-key"></i> <b>Quên mật khẩu</b>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="help-tab" data-toggle="tab" href="#help" role="tab" aria-controls="help"
+                aria-selected="false">
+                <i class="fa fa-info-circle"></i> <b>Hướng dẫn sử dụng</b>
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content pt-4" id="myTabContent">
+        <div class="tab-pane fade active show" id="contact" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <div class="contact_form">
+                        <div class="contact_info_title">Gửi tin nhắn đến chúng tôi</div>
+                        <form action="" method="POST" class="comment_form">
+                            <div class="">
+                                <div class="form_title">Họ và tên <span class="required">*</span></div>
+                                <input type="text" class="comment_input" name="ten" value="">
+
+                            </div>
+                            <div class="">
+                                <div class="form_title">Email <span class="required">*</span></div>
+                                <input type="text" class="comment_input" name="email" value="">
+                            </div>
+                            <div class="">
+                                <div class="form_title">Nội dung tin nhắn <span class="required">*</span></div>
+                                <textarea class="comment_input comment_textarea" name="cmt" value=""></textarea>
+                            </div>
+
+                            <div id="recaptcha-contactForm"></div>
+
+                            <div>
+                                <button type="submit" class="comment_button trans_200" name="btn_submit_contact">Gửi tin
+                                    nhắn <i class="fa fa-paper-plane-o"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-6">
+                    <div class="contact_info">
+                        <div class="contact_info_title">Thông tin liên hệ</div>
+                        <div class="contact_info_text">
+                            <p></p>
+                        </div>
+                        <div class="contact_info_location">
+                            <div class="contact_info_location_title"></div>
+                            <ul class="location_list">
+                                <li>59 Đường số 27, Phường 6, Quận Gò Vấp, Thành phố Hồ Chí Minh, Việt Nam.</li>
+                                <li><a href="tel:02873087999 ">(028) 7308 7999</a> | <a
+                                        href="tel:1800779999 ">1800779999</a></li>
+                                <li><a href="#">itsupport@thegioikimcuong.vn</a></li>
+                            </ul>
+                            <div class="contact_map">
+                                <iframe src="" width="100%" height="270" frameborder="0" style="border:0"
+                                    allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="forgetPassword" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+                <!-- Contact Info -->
+                <div class="col-lg-12">
+                    <div class="contact_forget_password">
+                        <div class="contact_info_title">Hướng dẫn về việc quên mật khẩu</div>
+                        <div class="contact_info_text">
+                            <p>Trong trường hợp tài khoản của bạn đăng nhập bằng <b>Email nội bộ</b>, vui lòng thay đổi
+                                mật khẩu tại hệ thống email nội bộ.</p>
+                            <p>Trong trường hợp đăng nhập bằng các email khác, vui lòng đổi mật khẩu tại form dưới đây
+                                <a href="" onclick="$('#forgetPasswordForm').fadeIn(); return  false;"><b
+                                        class="text-primary">mở form</b></a>.
+                            </p>
+
+                            <form id="forgetPasswordForm" method="POST" style="display:none; margin-top: 30px">
+                                <div class="contact_info_title" style="font-size: 26px">Nhập email của bạn</div>
+                                <div class="form-group">
+                                    <input style="width: 100%; max-width: 300px" type="text"
+                                        class="form-control forgetPassword_input" name="email" value="">
+                                </div>
+                                <div id="recaptcha-resetPassword"></div> <button id="changePasswordBtn"
+                                    onclick="return supportForm.resetPassword();" type="submit"
+                                    name="btn_submit_password" class="resetPassword_button trans_200">
+                                    Yêu cầu đổi mật khẩu <i class="fa fa-paper-plane-o"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="help" role="tabpanel" aria-labelledby="contact-tab">
+            <p style="margin-left: 20px;">Vui lòng xem Hướng dẫn sử dụng tại đây <a href="#">Hướng dẫn sử dụng</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="connect-us-outer"> <a class="connect-link" aria-label="PNJ Faceboo" rel="nofollow noopener" target="_blank"
+        href="https://www.facebook.com/PNJ.COM.VN" title="PNJ Facebook" alt="PNJ Facebook"> <i> <img
+                class="img-lazyload" data-src="" alt="Facebook"
+                src="https://cdn.pnj.io/images/image-update/footer/facebook.svg" style="opacity: 1;"> </i> </a> <a
+        class="connect-link" aria-label="Instagram" rel="nofollow noopener" target="_blank"
+        href="https://www.instagram.com/pnj_jewelry/" title="Instagram" alt="Instagram"> <i> <img class="img-lazyload"
+                data-src="" alt="Instagram" src="https://cdn.pnj.io/images/image-update/footer/instagram.svg"
+                style="opacity: 1;"> </i> </a> <a class="connect-link" aria-label="Youtube" rel="nofollow noopener"
+        target="_blank" href="https://www.youtube.com/user/PhuNhuanJewelry" title="Youtube" alt="Youtube"> <i> <img
+                class="img-lazyload" data-src="" alt="Youtube"
+                src="https://cdn.pnj.io/images/image-update/footer/youtube.svg" style="opacity: 1;"> </i> </a> <a
+        class="connect-link" aria-label="Youtube" rel="nofollow noopener" target="_blank" href="mailto:shop@pnj.com.vn"
+        title="Email" alt="Email"> <i> <img class="img-lazyload" data-src="" alt="Email"
+                src="https://cdn.pnj.io/images/image-update/footer/email.svg" style="opacity: 1;"> </i> </a> </div>
+
+
+
+
+
+
+<ul class="footerSocial">
+    <li><a href="https://www.facebook.com/thegioikimcuong/" rel="noopener" target="_blank" title="facebook"><img
+                height="23" src="//theme.hstatic.net/1000381168/1000941305/14/social_footer_fb_small.png?v=338"
+                alt="facebook"></a>
+    </li>
+    <li><a href="https://www.instagram.com/thegioikimcuong" rel="noopener" target="_blank" title="instagram"><img
+                height="23" src="//theme.hstatic.net/1000381168/1000941305/14/social_footer_ins_small.png?v=338"
+                alt="instagram"></a>
+    </li>
+    <li><a href="https://www.youtube.com/channel/UCfnuT5O9BhlyQDEbYXO8gBw" rel="noopener" target="_blank"
+            title="youtube"><img height="23"
+                src="//theme.hstatic.net/1000381168/1000941305/14/social_footer_ytb_small.png?v=338" alt="youtube"></a>
+    </li>
+    <li><a href="https://zalo.me/94143331359749352" rel="noopener" target="_blank" title="zalo"><img height="23"
+                src="//theme.hstatic.net/1000381168/1000941305/14/zalo-2_small.png?v=338" alt="zalo"></a></li>
+</ul>
+
+
+
+
+
+
+<ul class="social-list">
+    <li class="li-globe"><a class="social-link" href="https://thegioikimcuong.vn" title="" target="_balnk"
+            data-toggle="tooltip" data-placement="top" data-original-title="Web"><i
+                class="fa fa-brands fa-globe"></i></a></li>
+    <li class="li-facebook"><a class="social-link" href="https://www.facebook.com/thegioikimcuong/" title=""
+            target="_balnk" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"><i
+                class="fa fa-brands fa-facebook"></i></a></li>
+    <li class="li-instagram"><a class="social-link" href="https://www.facebook.com/thegioikimcuong/" title=""
+            target="_balnk" data-toggle="tooltip" data-placement="top" data-original-title="Instagram"><i
+                class="fa fa-brands fa-instagram"></i></a></li>
+    <li class="li-youtube-play"><a class="social-link" href="https://www.youtube.com/channel/UCfnuT5O9BhlyQDEbYXO8gBw"
+            title="" target="_balnk" data-toggle="tooltip" data-placement="top" data-original-title="Youtube"><i
+                class="fa fa-brands fa-youtube-play"></i></a></li>
+    <li class="li-xing"><a class="social-link" href="https://zalo.me/94143331359749352" title="" target="_balnk"
+            data-toggle="tooltip" data-placement="top" data-original-title="Xing"><i
+                class="fa fa-brands fa-xing"></i></a></li>
+</ul>
