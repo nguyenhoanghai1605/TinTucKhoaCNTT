@@ -6,3 +6,4 @@ Template HTML, CSS, JS
 
 ## Author
 Nguyen Hoang Hai - [@nguyenhoanghai1605](https://github.com/nguyenhoanghai1605)
+Co-authored-by: Devapro235
